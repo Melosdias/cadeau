@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="window">
+    <property name="can-focus">False</property>
+    <property name="default-width">800</property>
+    <property name="default-height">800</property>
+    <child>
+      <object class="GtkFixed" id="fixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage" id="background">
+            <property name="width-request">764</property>
+            <property name="height-request">709</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">backgroundKdo.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage" id="avatar">
+            <property name="width-request">600</property>
+            <property name="height-request">600</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">hello.png</property>
+          </object>
+          <packing>
+            <property name="x">90</property>
+            <property name="y">30</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label">
+            <property name="width-request">748</property>
+            <property name="height-request">92</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Hellooooo ! You're cute, do you wanna be
+my boyfriend ?</property>
+            <property name="justify">center</property>
+            <property name="selectable">True</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 25"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">22</property>
+            <property name="y">599</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="yesButton">
+            <property name="label" translatable="yes">  </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="yesLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">YES</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="noButton">
+            <property name="label" translatable="yes">  </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="noLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">NO</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="loveButton">
+            <property name="label" translatable="yes"> </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">100</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="hugButton">
+            <property name="label" translatable="yes"> </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="kissButton">
+            <property name="label" translatable="yes"> </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="kissLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">KISS</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="hugLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">HUG</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="loveLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">I LOVE YOU</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">100</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="continueButton">
+            <property name="label" translatable="yes"> </property>
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="continueLabel">
+            <property name="width-request">180</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">continue</property>
+            <attributes>
+              <attribute name="font-desc" value="Forte 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">700</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
